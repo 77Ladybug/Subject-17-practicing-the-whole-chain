@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Exercice subject 17</title>
+    <link rel = "stylesheet" href = "static/style.css">
 </head>
 <body>
-        <form action="/add" method="POST">
-            Add a note: <input type="text" name="note"><br>
-            <input type="submit" value="Submit">
-          </form> 
-    
+    <h1>WELCOME TO MY NOTE TAKING APP</h1><br>
+    <form action="/add" method="get">
+         Add a note: <input type="text" name="note">
+         <input type="submit" value="Submit">
+    </form><br>
+    <form action="/search" method="get">
+        Text you want to search for:<input type = "text" name = "query">
+        <input type = "submit" value = "Search">
+    </form><br>
+    <p><a href="/all notes"> See all your notes</a></p>
 </body>
 </html>
