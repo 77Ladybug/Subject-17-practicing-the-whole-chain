@@ -7,6 +7,12 @@
 </head>
 <body>
     <h1>WELCOME TO MY NOTE TAKING APP</h1><br>
+    <div id = content>
+        <input type="text" value = "" placeholder = "Enter your username" id = "myText"><br>
+        <input type="button" value = "Enter" id = "addButton">
+
+    </div>
+    <br>
     <form action="/add" method="get">
          Add a note: <input type="text" name="note">
          <input type="submit" value="Submit">
@@ -16,5 +22,7 @@
         <input type = "submit" value = "Search">
     </form><br>
     <p><a href="/all notes"> See all your notes</a></p>
+
+    <script src="username.js"></script>
 </body>
 </html>
